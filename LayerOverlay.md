@@ -1,6 +1,6 @@
 # Section Layer Overlay
 
-All layer overlay classses are found at:
+All layer overlay classes are found at:
 ``` html
 assets\source\scss\scss-core\_overlay.scss
 ```

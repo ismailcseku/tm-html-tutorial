@@ -129,6 +129,7 @@ Border Theme Color:
 
 
 ### Gradient BG Colors
+``` css
 .bg-theme-colored1-gradient {
   @include gradient-vertical($theme-color1, lighten($theme-color1, 15%));
 }
@@ -156,4 +157,4 @@ Border Theme Color:
 .bg-theme-colored21-gradient-horizontal {
   @include gradient-horizontal($theme-color2, $theme-color1);
 }
-
+```
