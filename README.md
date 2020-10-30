@@ -10,8 +10,9 @@ assets/source/scss/scss-core/_utility-classes.scss
 assets/source/scss/scss-core/_custom-bootstrap-margin-padding.scss
 ```
 
+## Data Attributes
 
-3. There are a lot of data attributes in 
+There are a lot of data attributes in 
 `js/custom.js` file:
 
 ``` js
@@ -92,7 +93,9 @@ To use custom margin padding, use this:
 data-tm-margin-bottom="-400px"
 ```
 
-4. There are a lot of predefined bg image position, repeat class in `_utility-classes.scss` file
+## BG Image Classes
+
+There are a lot of predefined bg image position, repeat class in `_utility-classes.scss` file
 
 ``` css
 .no-bg {
