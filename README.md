@@ -91,3 +91,80 @@ To use custom margin padding, use this:
 ``` html
 data-tm-margin-bottom="-400px"
 ```
+
+4. There are a lot of predefined bg image position, repeat class in `_utility-classes.scss` file
+
+``` css
+.no-bg {
+	background: none !important;
+}
+
+@include media-breakpoint-down(lg) {
+	.lg-no-bg {
+		background: none !important;
+	}
+}
+@include media-breakpoint-down(md) {
+	.md-no-bg {
+		background: none !important;
+	}
+}
+@include media-breakpoint-down(sm) {
+	.sm-no-bg {
+		background: none !important;
+	}
+}
+@include media-breakpoint-down(xs) {
+	.xs-no-bg {
+		background: none !important;
+	}
+}
+
+.bg-no-repeat, .bg-img-no-repeat {
+	background-repeat: no-repeat !important;
+}
+.bg-img-fixed {
+	background-attachment: fixed !important;
+}
+.bg-img-cover {
+	background-size: cover !important;
+}
+
+.bg-img-center {
+	background-position: center !important;
+}
+.bg-img-center-top {
+	background-position: center top !important;
+}
+.bg-img-center-bottom {
+	background-position: center bottom !important;
+}
+
+
+.bg-img-left {
+	background-position: left !important;
+}
+.bg-img-left-top {
+	background-position: left top !important;
+}
+.bg-img-left-bottom {
+	background-position: left bottom !important;
+}
+
+
+.bg-img-right {
+	background-position: right !important;
+}
+.bg-img-right-top {
+	background-position: right top !important;
+}
+.bg-img-right-bottom {
+	background-position: right bottom !important;
+}
+```
+
+Example:
+
+``` html
+<section class="bg-no-repeat bg-img-right" data-tm-bg-img="images/bg/bg1.jpg">
+```
