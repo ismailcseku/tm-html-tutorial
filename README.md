@@ -177,3 +177,47 @@ Example:
 ``` html
 <section class="bg-no-repeat bg-img-right" data-tm-bg-img="images/bg/bg1.jpg">
 ```
+
+## Standard Section with Title and content
+``` html
+<section id="sectionID_if_Needed">
+	<div class="container">
+		<div class="row">
+			<!-- Section Title -->
+			<div class="section-title">
+				<div class="col-md-12">
+					...          ...          ...
+				</div>
+			</div>
+			<!-- Section Content -->
+			<div class="section-content">
+				<div class="col-md-12">
+					...          ...          ...
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+```
+
+## Standard Call to Action Divider
+``` html
+<!-- Section: Divider -->
+<section class="bg-theme-colored1">
+  <div class="container pb-70 pt-70">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="text-white text-uppercase font-size-48">Quality, Affordable, Manufacturing and industrial Services</h2>
+        </div>
+        <div class="col-lg-4">
+          <div class="tm-sc-button mt-20 text-left text-lg-right">
+            <a href="#" class="btn btn-dark btn-lg text-uppercase"> Discover More </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
