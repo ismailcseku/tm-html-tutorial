@@ -212,7 +212,7 @@ Example:
         </div>
         <div class="col-lg-4">
           <div class="tm-sc-button mt-20 text-left text-lg-right">
-            <a href="#" class="btn btn-dark btn-lg text-uppercase"> Discover More </a>
+            <a href="#" class="btn btn-dark btn-lg text-uppercase">Discover More</a>
           </div>
         </div>
       </div>

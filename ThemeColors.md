@@ -126,3 +126,34 @@ Border Theme Color:
   background-color: rgba($theme-color1, .50) !important;
 }
 ```
+
+
+### Gradient BG Colors
+.bg-theme-colored1-gradient {
+  @include gradient-vertical($theme-color1, lighten($theme-color1, 15%));
+}
+.bg-theme-colored1-gradient-horizontal {
+  @include gradient-horizontal($theme-color1, lighten($theme-color1, 15%));
+}
+
+.bg-theme-colored2-gradient {
+  @include gradient-vertical($theme-color2, lighten($theme-color2, 15%));
+}
+.bg-theme-colored2-gradient-horizontal {
+  @include gradient-horizontal($theme-color2, lighten($theme-color2, 15%));
+}
+
+.bg-theme-colored12-gradient {
+  @include gradient-vertical($theme-color1, $theme-color2);
+}
+.bg-theme-colored12-gradient-horizontal {
+  @include gradient-horizontal($theme-color1, $theme-color2);
+}
+
+.bg-theme-colored21-gradient {
+  @include gradient-vertical($theme-color2, $theme-color1);
+}
+.bg-theme-colored21-gradient-horizontal {
+  @include gradient-horizontal($theme-color2, $theme-color1);
+}
+
