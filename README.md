@@ -73,14 +73,21 @@ assets/source/scss/scss-core/_custom-bootstrap-margin-padding.scss
   });
 ``` 
 
-4. To use bg image, use this:
+To use bg image, use this:
 ``` html
 data-tm-bg-img="images/bg/bg1.jpg"
+```
+
+To use a Background Image in a section, use this:
+``` html
+<section class="bg-no-repeat bg-img-right" data-tm-bg-img="images/bg/bg1.jpg">
+```
+To use a Background Color in a section, use this:
+``` html
+<section class="bg-no-repeat bg-img-right" data-tm-bg-color="#eee">
 ```
 
 To use custom margin padding, use this:
 ``` html
 data-tm-margin-bottom="-400px"
 ```
-
-
