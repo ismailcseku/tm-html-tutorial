@@ -105,70 +105,70 @@ There are a lot of predefined bg image position, repeat class in `_utility-class
 
 ``` css
 .no-bg {
-	background: none !important;
+  background: none !important;
 }
 
 @include media-breakpoint-down(lg) {
-	.lg-no-bg {
-		background: none !important;
-	}
+  .lg-no-bg {
+    background: none !important;
+  }
 }
 @include media-breakpoint-down(md) {
-	.md-no-bg {
-		background: none !important;
-	}
+  .md-no-bg {
+    background: none !important;
+  }
 }
 @include media-breakpoint-down(sm) {
-	.sm-no-bg {
-		background: none !important;
-	}
+  .sm-no-bg {
+    background: none !important;
+  }
 }
 @include media-breakpoint-down(xs) {
-	.xs-no-bg {
-		background: none !important;
-	}
+  .xs-no-bg {
+    background: none !important;
+  }
 }
 
 .bg-no-repeat, .bg-img-no-repeat {
-	background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important;
 }
 .bg-img-fixed {
-	background-attachment: fixed !important;
+  background-attachment: fixed !important;
 }
 .bg-img-cover {
-	background-size: cover !important;
+  background-size: cover !important;
 }
 
 .bg-img-center {
-	background-position: center !important;
+  background-position: center !important;
 }
 .bg-img-center-top {
-	background-position: center top !important;
+  background-position: center top !important;
 }
 .bg-img-center-bottom {
-	background-position: center bottom !important;
+  background-position: center bottom !important;
 }
 
 
 .bg-img-left {
-	background-position: left !important;
+  background-position: left !important;
 }
 .bg-img-left-top {
-	background-position: left top !important;
+  background-position: left top !important;
 }
 .bg-img-left-bottom {
-	background-position: left bottom !important;
+  background-position: left bottom !important;
 }
 
 
 .bg-img-right {
-	background-position: right !important;
+  background-position: right !important;
 }
 .bg-img-right-top {
-	background-position: right top !important;
+  background-position: right top !important;
 }
 .bg-img-right-bottom {
-	background-position: right bottom !important;
+  background-position: right bottom !important;
 }
 ```
 
@@ -181,22 +181,22 @@ Example:
 ## Standard Section with Title and content
 ``` html
 <section id="sectionID_if_Needed">
-	<div class="container">
-		<div class="row">
-			<!-- Section Title -->
-			<div class="section-title">
-				<div class="col-md-12">
-					...          ...          ...
-				</div>
-			</div>
-			<!-- Section Content -->
-			<div class="section-content">
-				<div class="col-md-12">
-					...          ...          ...
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <!-- Section Title -->
+      <div class="section-title">
+        <div class="col-md-12">
+          ...          ...          ...
+        </div>
+      </div>
+      <!-- Section Content -->
+      <div class="section-content">
+        <div class="col-md-12">
+          ...          ...          ...
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 ```
 
