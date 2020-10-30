@@ -1,13 +1,20 @@
-1. There are a lot of utility classes in 
-assets/source/scss/scss-core/_utility-classes.scss
+# Theme Mascot HTML Utility Classes
 
-2. There are a lot of margin padding in 
+1. There are a lot of `utility classes` in 
+``` html
+assets/source/scss/scss-core/_utility-classes.scss
+```
+
+2. There are a lot of `margin padding` in 
+``` html
 assets/source/scss/scss-core/_custom-bootstrap-margin-padding.scss
+```
 
 
 3. There are a lot of data attributes in 
-js/custom.js file:
+`js/custom.js` file:
 
+``` js
   $('[data-tm-bg-color]').each(function() {
     $(this).css("cssText", "background-color: " + $(this).data("tm-bg-color") + " !important;");
   });
@@ -64,12 +71,16 @@ js/custom.js file:
   $('[data-tm-margin-left]').each(function() {
     $(this).css('margin-left', $(this).data("tm-margin-left"));
   });
-
+``` 
 
 4. To use bg image, use this:
+``` html
 data-tm-bg-img="images/bg/bg1.jpg"
+```
 
 To use custom margin padding, use this:
+``` html
 data-tm-margin-bottom="-400px"
+```
 
 
