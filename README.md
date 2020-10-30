@@ -74,6 +74,12 @@ There are a lot of data attributes in
   });
 ``` 
 
+To use custom font size, use this:
+``` html
+data-tm-font-size="3rem"
+data-tm-font-size="48px"
+```
+
 To use bg image, use this:
 ``` html
 data-tm-bg-img="images/bg/bg1.jpg"
