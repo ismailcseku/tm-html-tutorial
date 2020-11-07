@@ -1,6 +1,10 @@
-# Animation Classes
+# Responsive breakpoints
 
-All animation classes can be found at:
+All the Responsive breakpoints of Bootstrap 4 cab be found here:
+https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+
+
+And is our framework, you will find it in:
 ``` html
 assets\source\scss\scss-core\_responsive.scss
 ```
