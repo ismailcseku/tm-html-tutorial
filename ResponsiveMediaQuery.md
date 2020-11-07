@@ -10,14 +10,8 @@ assets\source\scss\scss-core\_responsive.scss
 ```
 
 
-## To animate a div
-To animate and fade(When Visible) in a div, you can use following classes.
-``` html
-/*==================================================
-=            Bootstrap 4 Media Queries             =
-==================================================*/
- 
- 
+## All Responsive breakpoints
+``` css
 /*==========  Mobile First Method  ==========*/
  
 // Small devices (landscape phones, 576px and up)
