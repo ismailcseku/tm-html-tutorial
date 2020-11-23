@@ -43,6 +43,9 @@ $('[data-tm-border]').each(function() {
 $('[data-tm-border-radius]').each(function() {
   $(this).css('border-radius', $(this).data("tm-border-radius"));
 });
+$('[data-tm-z-index]').each(function() {
+  $(this).css('z-index', $(this).data("tm-z-index"));
+});
 
 $('[data-tm-padding]').each(function() {
   $(this).css('padding', $(this).data("tm-padding"));
